@@ -2,7 +2,7 @@
 
 This App is mobile version, it is use to receive notification from indoor App when it detect shake.
 
-If you want to receive notification on your mobile phone when indoor phone detect shake, please check  another our project [androidAppIndoor](url), you can click scan button on indoor App and QR code button on mobile App to pair two App.
+If you want to receive notification on your mobile phone when indoor phone detect shake, please check  another our project [androidAppIndoor](https://github.com/ncu106503522/androidAppIndoor), you can click scan button on indoor App and QR code button on mobile App to pair two App.
 
 ## Getting Started
 
