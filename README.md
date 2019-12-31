@@ -43,7 +43,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 We use [SemVer](http://semver.org/) for versioning.
 
 ## Authors
-* ncu106503522
+* [ncu106503522](https://github.com/ncu106503522)
 * mwnl lab
 
 
