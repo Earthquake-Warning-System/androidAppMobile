@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jakebonk:NotifyMe:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8731e7d922b28e1d97b15045798328b2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8731e7d922b28e1d97b15045798328b2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jakebonk/NotifyMe/1.0.1/97799077a977f85c42e24c8cd4ccd19a43dc964a/NotifyMe-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
