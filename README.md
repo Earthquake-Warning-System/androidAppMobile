@@ -19,11 +19,10 @@ IDE which can run Android project :
 ### Installing
 Download project from git :
 ```
-git clone "url"
+git clone https://github.com/ncu106503522/androidAppMobile.git
 ```
 Notice that this project use Firebase to send notification, so you need to build a account in Firebase and create a project for this, basically, you need finish following things.
 * put google-services.json into project
-* Fill out author key
 
 If you need tutorial please check  [FCM setup](https://firebase.google.com/docs/android/setup)
 
@@ -33,7 +32,11 @@ If you want install this App with Google play, please send your google play acco
 * [androidAppIndoor](https://play.google.com/apps/internaltest/4700171472181250730)
 
 ## Built With  
-* [SwiftProtobuf](https://github.com/apple/swift-protobuf) - For protocol buffer
+* [Protobuf](https://github.com/apple/swift-protobuf) - For protocol buffer
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
