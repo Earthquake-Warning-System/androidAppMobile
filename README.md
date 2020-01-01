@@ -17,7 +17,7 @@ IDE which can run Android project :
 
 ### Installing
 Download project from git :
-```
+```sh
 git clone https://github.com/ncu106503522/androidAppMobile.git
 ```
 Notice that this project use Firebase to send notification, so you need to build a account in Firebase and create a project for this, basically, you need finish following things.
