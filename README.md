@@ -30,8 +30,6 @@ If you want install this App with Google play, please send your google play acco
 * [androidAppMobile](https://play.google.com/apps/internaltest/4701297342863693173)
 * [androidAppIndoor](https://play.google.com/apps/internaltest/4700171472181250730)
 
-## Built With  
-* [Protobuf](https://github.com/apple/swift-protobuf) - For protocol buffer
 
 ## Contributing
 
