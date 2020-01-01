@@ -13,8 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 IDE which can run Android project :
 
 * Android studio
-* Visual Studio 
-* IntelliJ IDEA
+
 
 ### Installing
 Download project from git :
