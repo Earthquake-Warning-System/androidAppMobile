@@ -1,9 +1,8 @@
 # androidAppMobile
 
-This App is mobile version, it is use to receive notification from indoor App when it detect shake.
+This AppThis App is a mobile version, it is used to receive notification from an indoor App when it detects shake. is mobile version, it is use to receive notification from indoor App when it detect shake.
 
-If you want to receive notification on your mobile phone when indoor phone detect shake, please check  another our project [androidAppIndoor](https://github.com/ncu106503522/androidAppIndoor), you can click scan button on indoor App and QR code button on mobile App to pair two App.
-
+If you want to receive a notification on your mobile phone when an indoor phone detects shake, please check the other of our project [androidAppIndoor](https://github.com/ncu106503522/androidAppIndoor),  you can click the "scan" button on the indoor App and QR code button on the mobile App to pair two apps.
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -17,17 +16,16 @@ IDE which can run Android project :
 
 ### Installing
 Download project from git :
-```
+```sh
 git clone https://github.com/ncu106503522/androidAppMobile.git
 ```
-Notice that this project use Firebase to send notification, so you need to build a account in Firebase and create a project for this, basically, you need finish following things.
+Notice that this project uses Firebase to send a notification, so you need to build an account in Firebase and create a project for this you need to finish the following things.
 * put google-services.json into project
 
-If you need tutorial please check  [FCM setup](https://firebase.google.com/docs/android/setup)
+If you need a tutorial please check  [FCM setup](https://firebase.google.com/docs/android/setup)
 
 ### Download from google play
-If you want install this App with Google play, please send your google play account name to us with E-mail : "ncumwnl337@gmail.com", we can add you into our test list, then you can download this App through those url.
-* [androidAppMobile](https://play.google.com/apps/internaltest/4701297342863693173)
+If you want to install this App with Google play, please send your google play account name to us with E-mail: "ncumwnl337@gmail.com", we can add you to our test list, then you can download this App through those URL.* [androidAppMobile](https://play.google.com/apps/internaltest/4701297342863693173)
 * [androidAppIndoor](https://play.google.com/apps/internaltest/4700171472181250730)
 
 
@@ -38,10 +36,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning.
-
-## Authors
-* [ncu106503522](https://github.com/ncu106503522)
-* mwnl lab
 
 
 ## License
