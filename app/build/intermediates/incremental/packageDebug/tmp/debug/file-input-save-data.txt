@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 31 17:31:49 CST 2019
+#Thu Mar 05 17:59:06 CST 2020
 4.path=zxinglegacy/style.css
 13.baseType=DIRECTORY
 8.set=ASSET

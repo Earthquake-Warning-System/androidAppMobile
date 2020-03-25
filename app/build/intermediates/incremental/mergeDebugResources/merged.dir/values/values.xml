@@ -371,15 +371,15 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="default_web_client_id" translatable="false">589755742280-dvn5ld479ud17tv04euncce0b9biehj1.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">527768752869-407bitm122gp4vlvu1g8iguon0pvog6j.apps.googleusercontent.com</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="firebase_database_url" translatable="false">https://eqandroid-d812f.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">589755742280</string>
-    <string name="google_api_key" translatable="false">AIzaSyCuz42cQSSf5nHBSG33IY3mRo3wB_V-L1U</string>
-    <string name="google_app_id" translatable="false">1:589755742280:android:78abd3f12f061fca</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCuz42cQSSf5nHBSG33IY3mRo3wB_V-L1U</string>
-    <string name="google_storage_bucket" translatable="false">eqandroid-d812f.appspot.com</string>
-    <string name="project_id" translatable="false">eqandroid-d812f</string>
+    <string name="firebase_database_url" translatable="false">https://eews-17155.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">527768752869</string>
+    <string name="google_api_key" translatable="false">AIzaSyC1MnYTXgrE918jyyzbSVRHNEx7q9g481I</string>
+    <string name="google_app_id" translatable="false">1:527768752869:android:db1a7db25fbd388becba0c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC1MnYTXgrE918jyyzbSVRHNEx7q9g481I</string>
+    <string name="google_storage_bucket" translatable="false">eews-17155.appspot.com</string>
+    <string name="project_id" translatable="false">eews-17155</string>
     <string name="pugnotification_key_voice_reply">extra_voice_reply</string>
     <string name="pugnotification_label_voice_reply">Reply</string>
     <string name="pugnotification_text_description_image_background">Background</string>

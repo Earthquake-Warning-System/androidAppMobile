@@ -1,4 +1,4 @@
-#Tue Dec 31 17:31:49 CST 2019
+#Tue Mar 24 17:26:34 CST 2020
 base.0=C\:\\Users\\ncu106503522\\AndroidStudioProjects\\openSourceProject\\androidAppMobile\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
 path.0=classes.dex
 renamed.0=classes.dex

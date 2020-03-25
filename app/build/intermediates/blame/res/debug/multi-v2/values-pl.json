@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\ncu106503522\\AndroidStudioProjects\\openSourceProject\\androidAppMobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\bdc8f6463c7f98334367c000a302222c\\res\\values-pl\\values.xml",
+                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\5296b722dac944c60a5d4b83f8375dda\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\4dff234cdf95e1abd9dc8bc2c9419dd5\\res\\values-pl\\values.xml",
+                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\531b4b12d245f143bc9316fb8abf75b4\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,6 +35,23 @@
                         "startOffsets": "5568",
                         "endColumns": "102",
                         "endOffsets": "5666"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\76b7e675a92ec1580e578db73bd04d1e\\res\\values-pl\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "195,254,301,465",
+                        "endColumns": "58,46,163,109",
+                        "endOffsets": "249,296,460,570"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5854,5913,5960,6124",
+                        "endColumns": "58,46,163,109",
+                        "endOffsets": "5908,5955,6119,6229"
                     }
                 },
                 {
@@ -55,23 +72,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\8d782625aba7c03200645869c7a49aca\\res\\values-pl\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "195,254,301,465",
-                        "endColumns": "58,46,163,109",
-                        "endOffsets": "249,296,460,570"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5854,5913,5960,6124",
-                        "endColumns": "58,46,163,109",
-                        "endOffsets": "5908,5955,6119,6229"
-                    }
-                },
-                {
                     "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\e7623a78a60b5365923d4376c600417c\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",
@@ -89,7 +89,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\77dad8b2e88bde2385f61ba36d36cb83\\res\\values-pl\\values.xml",
+                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\62edc51b44ed4e3887f5dee5ed791aac\\res\\values-pl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

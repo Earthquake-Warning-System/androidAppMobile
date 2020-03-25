@@ -3,6 +3,7 @@ package com.mwnl.wawa.fcmtest;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         try {
                             Tool tool = new Tool(MainActivity.this);
-                            String url = tool.getData("Token");
+                            String url = tool.getData("Token") +","+getDeviceName();
                             BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
                             final Bitmap bitmap = barcodeEncoder.encodeBitmap(url, BarcodeFormat.QR_CODE, 600, 600);
                             runOnUiThread(new Runnable() {
@@ -55,6 +56,27 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        Log.d("ID",getDeviceName());
 
+    }
+    public String getDeviceName() {
+        String manufacturer = Build.MANUFACTURER;
+        String model = Build.MODEL;
+        if (model.startsWith(manufacturer)) {
+            return capitalize(model);
+        } else {
+            return capitalize(manufacturer) + "_" + model;
+        }
+    }
+    private String capitalize(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+        char first = s.charAt(0);
+        if (Character.isUpperCase(first)) {
+            return s;
+        } else {
+            return Character.toUpperCase(first) + s.substring(1);
+        }
     }
 }
