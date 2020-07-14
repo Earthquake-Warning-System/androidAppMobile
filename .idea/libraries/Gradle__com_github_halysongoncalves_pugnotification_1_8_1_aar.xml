@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.halysongoncalves:pugnotification:1.8.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab9795dd9e8106709d75362b94c6e1da/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ab9795dd9e8106709d75362b94c6e1da/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/176feb335698df5fa76ff3b5626885a9/jetified-pugnotification-1.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/176feb335698df5fa76ff3b5626885a9/jetified-pugnotification-1.8.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

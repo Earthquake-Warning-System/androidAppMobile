@@ -1,5 +1,7 @@
 package com.mwnl.wawa.fcmtest;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
@@ -26,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // for android 8 or higher
+        createNotificationChannel();
+
+
         Button button1 =  findViewById(R.id.button1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         try {
                             Tool tool = new Tool(MainActivity.this);
                             String url = tool.getData("Token") +","+getDeviceName();
+                            Log.d("url set",url);
                             BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
                             final Bitmap bitmap = barcodeEncoder.encodeBitmap(url, BarcodeFormat.QR_CODE, 600, 600);
                             runOnUiThread(new Runnable() {
@@ -77,6 +84,24 @@ public class MainActivity extends AppCompatActivity {
             return s;
         } else {
             return Character.toUpperCase(first) + s.substring(1);
+        }
+    }
+    private void createNotificationChannel() {
+        // Create the NotificationChannel, but only on API 26+ because
+        // the NotificationChannel class is new and not in the support library
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            CharSequence name = getString(R.string.channel_name);
+            String description = getString(R.string.channel_description);
+            int importance = NotificationManager.IMPORTANCE_HIGH;
+            NotificationChannel channel = new NotificationChannel("EWS", name, importance);
+            channel.setDescription(description);
+
+            // Register the channel with the system; you can't change the importance
+            // or other notification behaviors after this
+            NotificationManager notificationManager = getSystemService(NotificationManager.class);
+            notificationManager.createNotificationChannel(channel);
+
+            Log.d("set Android channel id",  notificationManager.getNotificationChannel("EWS").getName().toString());
         }
     }
 }

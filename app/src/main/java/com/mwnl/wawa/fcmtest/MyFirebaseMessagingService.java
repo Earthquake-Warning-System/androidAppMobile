@@ -7,11 +7,20 @@ import com.google.firebase.messaging.RemoteMessage;
 
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService{
+
+    @Override
+    public void onNewToken(String s) {
+        super.onNewToken(s);
+        System.out.println(s);
+    }
+
     int count=0;
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
         Log.d("FCM", "onMessageReceived:"+remoteMessage.getFrom());
+
+
         if(count==0) {
             if (remoteMessage.getData().size() > 0) {
                 Log.d("FCM", "Message data payload: " + remoteMessage.getData());
@@ -39,4 +48,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService{
         }
 
     }
+
+
 }

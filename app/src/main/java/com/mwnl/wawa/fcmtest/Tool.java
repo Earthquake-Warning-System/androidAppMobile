@@ -5,6 +5,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.RingtoneManager;
 import android.net.Uri;
 import android.util.Log;
 
@@ -33,15 +34,20 @@ public class Tool {
     }
 
     public void setNotification(Context context,String title,String content){
-            Log.d("FCM", "get FCM");
-            Intent notifyIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cwb.gov.tw/V8/C/E/index.html"));
-            notifyIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-            PendingIntent pendingItent = PendingIntent.getActivities(context, 0, new Intent[] {notifyIntent }, PendingIntent.FLAG_UPDATE_CURRENT);
-            PugNotification.with(context)
+
+        Log.d("FCM", "get FCM");
+        Uri defaultRingtoneUri = RingtoneManager.getDefaultUri(R.raw.eq_warning_sound);
+        Intent notifyIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.cwb.gov.tw/V8/C/E/index.html"));
+        notifyIntent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+        PendingIntent pendingItent = PendingIntent.getActivities(context, 0, new Intent[] {notifyIntent }, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        PugNotification.with(context)
                     .load()
                     .title(title)
                     .message(content)
+                    .sound(defaultRingtoneUri)
                     .click(pendingItent)
+                    .priority(4)
                     .smallIcon(R.drawable.pugnotification_ic_launcher)
                     .largeIcon(R.drawable.pugnotification_ic_launcher)
                     .flags(Notification.DEFAULT_ALL)

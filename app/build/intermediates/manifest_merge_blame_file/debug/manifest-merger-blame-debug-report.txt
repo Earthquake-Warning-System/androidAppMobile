@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mwnl.mobile.fcmtest"
+4    android:versionCode="4"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <supports-screens
+13-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:7:5-13:11
+14        android:anyDensity="true"
+14-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:9:9-34
+15        android:largeScreens="true"
+15-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:8:9-36
+16        android:normalScreens="true"
+16-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:12:9-37
+17        android:smallScreens="true"
+17-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:11:9-36
+18        android:xlargeScreens="true" />
+18-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:10:9-37
+19
+20    <uses-feature
+20-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:16:5-17:35
+21        android:name="android.hardware.wifi"
+21-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:16:19-55
+22        android:required="false" />
+22-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:17:9-33
+23    <uses-feature
+23-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:18:5-19:34
+24        android:name="android.hardware.camera"
+24-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:18:19-57
+25        android:required="true" />
+25-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:19:9-32
+26    <uses-feature
+26-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:20:5-21:35
+27        android:name="android.hardware.bluetooth"
+27-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:20:19-60
+28        android:required="false" />
+28-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:22:5-23:35
+30        android:name="android.hardware.telephony"
+30-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:22:19-60
+31        android:required="false" />
+31-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:23:9-33
+32    <uses-feature
+32-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:24:5-25:35
+33        android:name="android.hardware.camera.autofocus"
+33-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:24:19-67
+34        android:required="false" />
+34-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:25:9-33
+35    <uses-feature
+35-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:26:5-27:35
+36        android:name="android.hardware.touchscreen"
+36-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:26:19-62
+37        android:required="false" />
+37-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:27:9-33
+38    <uses-feature
+38-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:28:5-29:35
+39        android:name="android.hardware.location"
+39-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:28:19-59
+40        android:required="false" />
+40-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:29:9-33
+41    <uses-feature
+41-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:30:5-31:35
+42        android:name="android.hardware.location.network"
+42-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:30:19-67
+43        android:required="false" />
+43-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:31:9-33
+44    <uses-feature
+44-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:32:5-33:35
+45        android:name="android.hardware.location.gps"
+45-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:32:19-63
+46        android:required="false" />
+46-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:33:9-33
+47    <uses-feature
+47-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:34:5-35:35
+48        android:name="android.hardware.screen.landscape"
+48-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:34:19-67
+49        android:required="false" />
+49-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:35:9-33
+50
+51    <uses-permission android:name="android.permission.CAMERA" />
+51-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:23:5-65
+51-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:23:22-62
+52
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:29:5-31:36
+54        android:name="android.hardware.camera.front"
+54-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:30:9-53
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:31:9-33
+56    <uses-feature
+56-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:37:5-39:36
+57        android:name="android.hardware.camera.flash"
+57-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:38:9-53
+58        android:required="false" />
+58-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:39:9-33
+59
+60    <uses-permission android:name="android.permission.VIBRATE" />
+60-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:25:5-66
+60-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:25:22-63
+61    <uses-permission android:name="android.permission.FLASHLIGHT" />
+61-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:26:5-69
+61-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:26:22-66
+62    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+62-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:22:5-79
+62-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:22:22-76
+63    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+63-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:24:5-68
+63-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:24:22-65
+64    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+64-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:26:5-82
+64-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:26:22-79
+65
+66    <application
+66-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:43:5-72:19
+67        android:allowBackup="true"
+67-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:45:9-35
+68        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+68-->[androidx.core:core:1.0.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1921e8b00664583b96275b63e35c8fb2\core-1.0.0\AndroidManifest.xml:22:18-86
+69        android:debuggable="true"
+70        android:icon="@mipmap/ic_launcher"
+70-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:46:9-43
+71        android:label="@string/app_name"
+71-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:47:9-41
+72        android:supportsRtl="true"
+72-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:48:9-35
+73        android:testOnly="true"
+74        android:theme="@style/AppTheme" >
+74-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:49:9-40
+75        <activity
+75-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:50:9-57:20
+76            android:name="com.mwnl.wawa.fcmtest.MainActivity"
+76-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:50:19-47
+77            android:screenOrientation="portrait" >
+77-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:51:13-49
+78            <intent-filter>
+78-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:52:13-56:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:53:17-69
+79-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:53:25-66
+80                <action android:name="android.intent.action.VIEW" />
+80-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:54:17-69
+80-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:54:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:55:17-77
+82-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:55:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <service android:name="com.mwnl.wawa.fcmtest.MyInstanceIDService" >
+86-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:60:9-64:19
+86-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:60:18-53
+87            <intent-filter>
+87-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:61:13-63:29
+88                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+88-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:62:17-80
+88-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:62:25-77
+89            </intent-filter>
+90        </service>
+91        <service android:name="com.mwnl.wawa.fcmtest.MyFirebaseMessagingService" >
+91-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:65:9-70:19
+91-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:66:13-55
+92            <intent-filter>
+92-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:67:13-69:29
+93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+93-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:68:17-77
+93-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:68:25-75
+94            </intent-filter>
+95        </service>
+96
+97        <!--
+98             FirebaseMessagingService performs security checks at runtime,
+99             no need for explicit permissions despite exported="true"
+100        -->
+101        <service
+101-->[com.google.firebase:firebase-messaging:17.4.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\ca22dbedee22cd48eb1208422459b03c\jetified-firebase-messaging-17.4.0\AndroidManifest.xml:28:9-34:19
+102            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+102-->[com.google.firebase:firebase-messaging:17.4.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\ca22dbedee22cd48eb1208422459b03c\jetified-firebase-messaging-17.4.0\AndroidManifest.xml:29:13-82
+103            android:exported="true" >
+103-->[com.google.firebase:firebase-messaging:17.4.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\ca22dbedee22cd48eb1208422459b03c\jetified-firebase-messaging-17.4.0\AndroidManifest.xml:30:13-36
+104            <intent-filter android:priority="-500" >
+104-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:67:13-69:29
+105                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+105-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:68:17-77
+105-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:68:25-75
+106            </intent-filter>
+107        </service>
+108
+109        <activity
+109-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:48:9-54:63
+110            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+110-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:49:13-74
+111            android:clearTaskOnLaunch="true"
+111-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:50:13-45
+112            android:screenOrientation="sensorLandscape"
+112-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:51:13-56
+113            android:stateNotNeeded="true"
+113-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:52:13-42
+114            android:theme="@style/zxing_CaptureTheme"
+114-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:53:13-54
+115            android:windowSoftInputMode="stateAlwaysHidden" />
+115-->[com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\5e4be9a28b4258a3c301c8717057882b\jetified-zxing-android-embedded-3.0.2\AndroidManifest.xml:54:13-60
+116        <activity
+116-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:61:9-68:63
+117            android:name="com.google.zxing.client.androidlegacy.CaptureActivity"
+117-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:62:13-81
+118            android:clearTaskOnLaunch="true"
+118-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:63:13-45
+119            android:configChanges="orientation|keyboardHidden"
+119-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:64:13-63
+120            android:screenOrientation="landscape"
+120-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:65:13-50
+121            android:stateNotNeeded="true"
+121-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:66:13-42
+122            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+122-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:67:13-71
+123            android:windowSoftInputMode="stateAlwaysHidden" />
+123-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:68:13-60
+124        <activity
+124-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:69:9-71:48
+125            android:name="com.google.zxing.client.androidlegacy.HelpActivity"
+125-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:70:13-78
+126            android:screenOrientation="user" />
+126-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:71:13-45
+127        <activity
+127-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:72:9-74:48
+128            android:name="com.google.zxing.client.androidlegacy.encode.EncodeActivity"
+128-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:73:13-87
+129            android:screenOrientation="user" />
+129-->[com.journeyapps:zxing-android-legacy:2.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\17aa5ac502cf6775544cd272586295f7\jetified-zxing-android-legacy-2.0.1\AndroidManifest.xml:74:13-45
+130
+131        <service
+131-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:29:9-35:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:30:13-84
+133            android:exported="false" >
+133-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:31:13-37
+134            <meta-data
+134-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+135-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:33:17-96
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:34:17-82
+137        </service>
+138
+139        <receiver
+139-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:37:9-44:20
+140            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+140-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:38:13-78
+141            android:exported="true"
+141-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:39:13-36
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:40:13-73
+143            <intent-filter>
+143-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:41:13-43:29
+144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+144-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:42:17-81
+144-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:42:25-78
+145            </intent-filter>
+146        </receiver>
+147        <!--
+148             FirebaseInstanceIdService performs security checks at runtime,
+149             no need for explicit permissions despite exported="true"
+150        -->
+151        <service
+151-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:50:9-56:19
+152            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+152-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:51:13-77
+153            android:exported="true" >
+153-->[com.google.firebase:firebase-iid:17.1.0] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1965f49507ff4c197ab36983958b05f0\jetified-firebase-iid-17.1.0\AndroidManifest.xml:52:13-36
+154            <intent-filter android:priority="-500" >
+154-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:61:13-63:29
+155                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+155-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:62:17-80
+155-->C:\Users\mwnl\Android opensource\androidAppMobile\app\src\main\AndroidManifest.xml:62:25-77
+156            </intent-filter>
+157        </service>
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:16.0.3] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\236ced4493cdeab59b7b739437b0d8ad\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:16.0.3] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\236ced4493cdeab59b7b739437b0d8ad\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+161            android:authorities="com.mwnl.mobile.fcmtest.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:16.0.3] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\236ced4493cdeab59b7b739437b0d8ad\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+162            android:exported="false"
+162-->[com.google.firebase:firebase-common:16.0.3] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\236ced4493cdeab59b7b739437b0d8ad\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+163            android:initOrder="100" />
+163-->[com.google.firebase:firebase-common:16.0.3] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\236ced4493cdeab59b7b739437b0d8ad\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1c694b27fc90f1909cb1f7a1112fa135\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1c694b27fc90f1909cb1f7a1112fa135\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1c694b27fc90f1909cb1f7a1112fa135\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\1c694b27fc90f1909cb1f7a1112fa135\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\2485b951142a2085c65136adf3b73f21\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\2485b951142a2085c65136adf3b73f21\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\mwnl\.gradle\caches\transforms-2\files-2.1\2485b951142a2085c65136adf3b73f21\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+173    </application>
+174
+175</manifest>

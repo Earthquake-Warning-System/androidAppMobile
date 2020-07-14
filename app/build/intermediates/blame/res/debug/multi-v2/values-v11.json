@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ncu106503522\\AndroidStudioProjects\\openSourceProject\\androidAppMobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\mwnl\\Android opensource\\androidAppMobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ncu106503522\\.gradle\\caches\\transforms-2\\files-2.1\\76b7e675a92ec1580e578db73bd04d1e\\res\\values-v11\\values.xml",
+                    "source": "C:\\Users\\mwnl\\.gradle\\caches\\transforms-2\\files-2.1\\5e4be9a28b4258a3c301c8717057882b\\jetified-zxing-android-embedded-3.0.2\\res\\values-v11\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
